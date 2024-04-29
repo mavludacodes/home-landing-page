@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    display: block;
+  }
+  .nav-links-container {
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  #hero {
+    padding: 2.3rem;
+  }
+  .hero-title {
+    font-size: 3rem;
+    width: auto;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    width: auto;
+  }
+
+  .hero-tab-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-tab-content-box {
+    border-right: none;
+    border-bottom: 1px solid #dcdceb;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-areas: "main" "tour" "about" "subscribe";
+    gap: 1rem;
+  }
+
+  .recently-text-container > h2 {
+    font-size: 1.5rem;
+  }
+  .recently-text-container > a {
+    font-size: 1.4rem;
+  }
+}
